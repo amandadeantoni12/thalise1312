@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetOlandia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+
+</head>
+<body>
+
+  <!-- header star -->
+  <header class="header">
+
+      <a href="#" class="logo"> <i class="fas fa-cat-cap"></i> Pet<span>Olandia</span>
+      </a>
+
+      <form action="" class="search-btn">
+        <input type="search" name="" id="search-btn" placeholder="Pesquise aqui..."
+        />
+        <label for="searcBox" class="fas fa-search"> </label>
+      </form>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#books">ONGS</a>
+        <a href="#suportSubmit">Suporte</a>
+        <a href="#blog">Blog</a>
+        <a href="#footer">Contato</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="login-form">
+
+        <h3>login</h3>
+
+        <div class="text-pet">
+          <label>Selecione sua ONG</label>
+          <select class="select-ong">
+            <option placeholder="Selecione a sua ONG"></option>
+        <option>ONG Acão Chego</option>
+        <option>ONG Cidadania Animal</option>
+        <option>ONG Adote Um Pet </option>
+        <option>ONG Amigo Não Se Compra </option>
+      </select>
+        </div>
+
+        <input type="text"class="box" placeholder="digite seu nome completo" >
+        <label for="registration"></label>
+        <input type="password" id="registration" autocomplete="current-password" inputmode="numeric" placeholder="digite sua matricula" minlength="4"
+        maxlength="6" size="6"  required class="box">
+
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me">Gravar meus dados </label>
+        </div>
+
+        <input type="submit" value="Logar" class="btn">
+
+        <div class="IdontRemember">
+          <a href="#">Não lembro minha matricula</a>
+        </div>
+      </form>      
+    </header>
+
+    <!-- search form  -->
+  <div class="search-form">
+
+    <div id="close-search" class="fas fa-times"></div>
+    <form action="">
+        <input type="search" name="" placeholder="Pesquise aqui..." id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+  </div>
+<!-- header end -->
+    
+
+
+  <!-- home -->
+    <section class="home" id="home">
+
+      <div class="content">
+            <h2> Bem vindos a</h2> 
+            <div class="petolandia">
+              <h3>PetOlandia</h3>
+            </div>
+            <h4>A plataforma dos amantes de pet</h4>
+
+            <p>
+              Consulte seus pets mesmo sem internet.
+            </p>
+            <a href="#about" class="btn">Leia mais!</a>
+      </div>
+
+      <img src="images/bottom_wave.png" class="wave" alt="">
+
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+
+      <h1 class="heading">Sobre os pets</h1>
+
+      <div class="column">
+        
+        <div class="image-left">
+          <img src="images/devices.PNG" alt="">
+        </div>
+
+        <div class="content">
+          <h3>A <span>PetOlandia</span> é uma empresa que sempre incentiva e preza pelo acolhimento dos animais </h4>
+
+          <p>
+            Somos uma rede de apaixonados por pets e queremos incentivar a adoção, conscientizar sobre a posse responsável e ajudar a diminuir o índice de animais abandonados através de projetos e ações para melhoria de bem estar de pets e instituições parceiras em todo o Brasil..
+          </p>
+          <p>
+            Funciona assim: o programa Adote um Pet da PetOlandia, cadastra protetores independentes para que cães e gatos tenham uma chance de encontrar um lar. A PetOlandia disponibiliza espaços permanentes dedicados à adoção no centro de suas lojas, sendo todo o processo conduzido pelos parceiros, conforme orientações sobre posse responsável. Todos os pets e o processo de adoção são de responsabilidade exclusiva dos protetores. A vantagem dessa união entre a PetOlandia e os protetores é que os adotantes passam por todo o processo de adoção em um só lugar, e ainda conta com todo suporte necessário neste momento tão importante.
+          </p>
+           <p><strong>
+            Para adotar, você pode ir presencialmente à uma loja PetOlandia que tenha espaço dedicado à adoção.
+           </strong></p>
+        </div>
+      </div>
+
+
+      <div class="column right">  
+        <div class="content">
+          <h3>Pensando nisso a 
+           <span>PetOlandia</span> lançou o desafio</h3>
+          <div class="rocketseat">
+            <h4>
+              "Pensando em construir o futuro, como você solucionaria os problemas de acesso à adoção hoje, utilizando a tecnologia?"
+            </h4>
+          </div>
+          
+          <p>
+            E minha proposta é uma busca pelos pets praticamente offline. Não qualquer busca, mas a busca da ONG selecionada pelo parceiro.
+            Apenas realizando login.
+          </p>
+          <p>
+            Hoje existe varias pesquisas virtuais, ou opções para pesquisar seu pet favorito, mas todas sempre visando o cuidado, poucas pessoas se importam realmente com o proximo.
+            É um projeto ousado, talvez é até impossivel num primeiro momento, mas estamos falando da tecnologia; há um passo do metaverso.
+          </p>
+
+          <p>
+            A ideia seria um aplicativo e até mesmo um programa Desktop que conseguisse acessar o Banco de dados de ONGS atraves de uma primeira e unica conexão, Pen drive ou até mesmo Cd. A Interação aconteceria totalmente por parte da ONG com acesso a internet.
+            O parceiro faria o Login selecionando sua ONG, o nome completo e numero da sua Matricula fornecido pela própria ONG.
+          </p>
+        </div>
+        <div class="image-right">
+          <img src="images/myApp.png" alt="">
+          <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+        </div>
+      </div>
+
+      
+    </section>
+    
+    
+    <!-- books -->
+    <section class="books" id="books">
+
+      <h1 class="heading">Consulte em camada</h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <img src="images/cidadanianimal.png" alt="">
+          <h3>Cidadania Animal</h3>
+          <ul>
+            <li> - Sobre a ONG</li>
+            <li> - Cães e Gatos</li>
+            <li> - Como Ajudar</li>
+            <li> - Denuncie </li>
+            <li> - Contato</li>
+          </ul>
+          <a href="#" class="btn">Consultar</a>
+        </div>
+
+        <div class="box">
+          <img src="images/adotepet.jpg" alt="">
+          <h3>Adote Pet</h3>
+          <ul>
+            <li> - Sobre a ONG</li>
+            <li> - Como Ajudar</li>
+            <li> - Denuncie</li>
+            <li> - Cães e Gatos</li>
+            <li> - Contato </li>
+            
+          </ul>
+          <a href="#" class="btn">Consultar</a>
+        </div>
+
+        <div class="box">
+          <img src="images/acaochego.PNG" alt="">
+          <h3>Acão Chego</h3>
+          <ul>
+            <li> - Sobre a ONG</li>
+            <li> -Contato</li>
+            <li> - Denuncie</li>
+            <li> - Cães e Gatos</li>
+            <li> - Como Ajudar</li>
+          </ul>
+          <a href="#" class="btn">Consultar</a>
+        </div>
+
+
+
+        <div class="box">
+          <img src="images/amigonaosecompra.PNG" alt="">
+          <h3>Amigo Não Se Compra</h3>
+          <ul>
+            <li> - Sobre a ONG</li>
+            <li> - Cães e Gatos</li>
+            <li> - Como Ajudar</li>
+            <li> - Denuncie </li>
+            <li> - Contato</li>
+                      </ul>
+                      <a href="#" class="btn">Consultar</a>
+        </div>
+        
+      </div>
+
+
+    </section>
+
+    <!-- Suport section -->
+    <div class="suportSubmit" id="suportSubmit">
+
+      <h3>Não encontrou o que procura?!</h3>
+      <p>Se estiver com alguma dificuldade de encontrar aquele Pet que você amou, clique aqui</p>
+
+      <form action="">
+        <input type="text" placeholder="Pesquise rapida">
+       <input type="submit" value="Pesquisar">
+
+      </form>
+      
+      <div class="form-group">
+        
+        <input type="radio" name="searchFieldSelector" id="">
+        <label for="searchFieldSelector">Cor</label>
+  
+        <input type="radio" name="searchFieldSelector" id="">
+        <label for="searchFieldSelector">Raça</label>
+  
+        <input type="radio" name="searchFieldSelector" id="">
+        <label for="searchFieldSelector">Nome</label>
+      </div>
+
+    </div>
+
+    <!-- blog -->
+    <section class="blog" id="blog">
+
+        <h1 class="heading">Blog PetOlandia</h1>
+  
+        <div class="box-container">
+  
+          <div class="box">
+            <img src="images/noticias.PNG" alt="">
+            <h3>Notícias:</h3>           
+            <p>Campanha "Adotar é Animal" incentiva adoção de animais; confira no site os pets
+                Durante a pandemia, aumento o número de cães e gatos abandonados e houve uma redução drástica nas adoções</p>
+            <a href="#" class="btn">Leia mais!</a>
+          </div>
+  
+          <div class="box">
+            <img src="images/petolandia.PNG" alt="">
+            <h3>Blog da PetOlandia</h3>
+            <p>Venha conferir a coleção de inverno para seu pet ficar quentinho no frio!</p>
+            <a href="#" class="btn">Leia mais!</a>
+          </div>
+  
+          <div class="box">
+            <img src="images/adoteseupet.PNG" alt="">
+            <h3>Adote Seu Amiguinho</h3>
+            <p>Confira agora nossos pets que estão aguardando um novo lar. aperte em leia mais para adotar seu novo amigo!</p>
+            <a href="#" class="btn">Leia mais!</a>
+          </div>
+
+          </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer" id="footer">
+
+      <img src="images/top_wave.png" alt="">
+
+      <div class="box-container">
+
+        <div class="box box-about">
+          <h3>Sobre iniciativa</h3>
+          <p>A ideia de um App/Desktop que acesse o Banco de dados da ONG atraves de uma primeira e unica conexão.
+            Após realizar o Login selecionando sua ONG ele tem acessos livre aos Pets da sua busca.</p>
+        </div>
+
+       <div class="box links">
+          <h3>Links</h3>
+          <a href="#home"> Home </a>
+          <a href="#about"> Sobre </a>
+          <a href="#books"> Pets </a>
+          <a href="#suportSubmit"> Suporte </a>
+          <a href="#blog"> Blog </a>
+        </div> 
+
+        <div class="box">
+          <h3>Suporte</h3>
+          <div class="suport">
+            <i class="fas fa-phone"></i>
+            <p>051 98645-7914</p>
+          </div>
+          <div class="suport">
+            <i class="fas fa-envelope"></i>
+            <p>amandadeantoni@icloud.com</p>
+          </div>
+
+        </div>
+
+        <div class="box">
+          <h3>Contato</h3>
+          <div class="info">
+            <i class="fas fa-phone"></i>
+            <p>051 98155-6691 <br> 051 98645-7914</p>
+          </div>
+          <div class="info">
+            <i class="fas fa-envelope"></i>
+            <p>ong@ong.com <br> ong@admin.com</p>
+          </div>
+          <div class="info">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>R. Pantaleão Telles, Guaíba-Rs</p>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+      <h1 class="credit"> &copy Criado por Amanda De Antoni | Todos os direitos reservados</h1>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
